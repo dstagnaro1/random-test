@@ -3,6 +3,8 @@ from collections import Counter
 
 nums = []
 
+# generates random numbers between 0 and 9
+# 1 million times and shows how random each selection is
 for _ in range(1000000):
     nums.append(ri(0,9))
 
